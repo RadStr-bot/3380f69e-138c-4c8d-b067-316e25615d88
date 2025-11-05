@@ -1,0 +1,20 @@
+{
+  "iri": "cejud",
+  "projectIri": "cejud",
+  "types": [
+    "https://dataspecer.com/core/model-descriptor/pim-store-wrapper"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "DCAT-AP vocabulary, the r5r namespace"
+    }
+  },
+  "metadata": {
+    "creationDate": "2025-11-05T08:31:58.293Z",
+    "modificationDate": "2025-11-05T09:11:23.726Z"
+  },
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedAt": "2025-11-05T09:11:29.172Z",
+  "_exportedBy": "http://localhost:3100"
+}

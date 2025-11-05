@@ -1,0 +1,22 @@
+{
+  "iri": "3380f69e-138c-4c8d-b067-316e25615d88",
+  "projectIri": "3380f69e-138c-4c8d-b067-316e25615d88",
+  "types": [
+    "http://dataspecer.com/resources/local/package"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "DCAT-AP 3.0.1 based on DCAT 3 DAP",
+      "cs": "DCAT-AP 3.0.1 na základě DCAT 3 DAP"
+    },
+    "description": {}
+  },
+  "metadata": {
+    "creationDate": "2025-11-05T08:31:58.041Z",
+    "modificationDate": "2025-11-05T09:11:24.636Z"
+  },
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedAt": "2025-11-05T09:11:29.206Z",
+  "_exportedBy": "http://localhost:3100"
+}

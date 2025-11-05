@@ -1,0 +1,21 @@
+{
+  "iri": "3380f69e-138c-4c8d-b067-316e25615d88/3b721c44-2b4a-4a9e-a418-3727ed3a23cd/f2469701-cb36-42bd-869e-331d71f9b3e1",
+  "projectIri": "f88d73fa-527c-49f9-a782-c2d75ff00d1d",
+  "types": [
+    "https://dataspecer.com/core/model-descriptor/pim-store-wrapper"
+  ],
+  "userMetadata": {
+    "documentBaseUrl": "https://www.w3.org/ns/legacy_locn.ttl",
+    "label": {
+      "en": "legacy_locn"
+    }
+  },
+  "metadata": {
+    "creationDate": "2025-11-05T08:32:00.047Z",
+    "modificationDate": "2025-11-05T09:11:24.377Z"
+  },
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedAt": "2025-11-05T09:11:29.200Z",
+  "_exportedBy": "http://localhost:3100"
+}

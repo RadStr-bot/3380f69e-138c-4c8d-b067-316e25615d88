@@ -1,0 +1,23 @@
+{
+  "iri": "6c051c9e-4d0e-4c35-813b-690c6742aad1",
+  "projectIri": "6c051c9e-4d0e-4c35-813b-690c6742aad1",
+  "types": [
+    "http://dataspecer.com/resources/local/semantic-model"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "DCAT-AP based on DCAT-DAP"
+    },
+    "description": {
+      "en": "Semantic model for the profile"
+    }
+  },
+  "metadata": {
+    "creationDate": "2025-11-05T08:31:58.145Z",
+    "modificationDate": "2025-11-05T09:11:23.682Z"
+  },
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedAt": "2025-11-05T09:11:29.170Z",
+  "_exportedBy": "http://localhost:3100"
+}

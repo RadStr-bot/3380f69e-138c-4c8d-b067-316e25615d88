@@ -1,0 +1,20 @@
+{
+  "iri": "okfhw",
+  "projectIri": "okfhw",
+  "types": [
+    "https://dataspecer.com/core/model-descriptor/pim-store-wrapper"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "European Legislation Identifier (ELI)"
+    }
+  },
+  "metadata": {
+    "creationDate": "2025-11-05T08:31:58.389Z",
+    "modificationDate": "2025-11-05T09:11:23.768Z"
+  },
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedAt": "2025-11-05T09:11:29.174Z",
+  "_exportedBy": "http://localhost:3100"
+}

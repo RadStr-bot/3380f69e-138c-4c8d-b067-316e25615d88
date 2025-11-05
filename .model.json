@@ -1,0 +1,207 @@
+{
+  "modelCompositionConfiguration": {
+    "modelType": "application-profile",
+    "model": "6c051c9e-4d0e-4c35-813b-690c6742aad1",
+    "canAddEntities": true,
+    "canModify": true,
+    "profiles": {
+      "modelType": "merge",
+      "models": null
+    }
+  },
+  "configuration": {
+    "https://schemas.dataspecer.com/documentation-generator-config/": {
+      "partials": {
+        "html-head": "<meta charset=\"utf-8\" />\n<title>{{translate label}}</title>\n<meta name=\"color-scheme\" content=\"light dark\">\n<script type=\"application/ld+json\">\n  {{{json dsv}}}\n</script>\n<script\n  src=\"https://www.w3.org/Tools/respec/respec-w3c\"\n  class=\"remove\"\n  defer\n></script>\n<script class=\"remove\">\n  // All config options at https://respec.org/docs/\n  var respecConfig = {\n    specStatus: \"base\",\n    shortName: \"dcat-ap\",               \n    showPreviousVersion: false,\n    thisVersion: \"https://mff-uk.github.io/specifications/dcat-ap/\",\n    latestVersion: \"https://mff-uk.github.io/specifications/dcat-ap/\",\n    editors: [{\n      name: \"Jakub Klímek\",\n      orcid: \"0000-0001-7234-3051\",\n      company:    \"Charles University\",\n      companyURL: \"https://www.mff.cuni.cz\"\n    }],\n    inlineCSS: \"true\",\n    maxTocLevel: 2,\n    github: \"https://github.com/mff-uk/specifications/\",\n    {{> local-biblio}}\n    otherLinks: [{\n        key: \"Links\",\n        data: [{\n            value: \"Original DCAT-AP 3.0.1 specification\",\n            href: \"https://semiceu.github.io/DCAT-AP/releases/3.0.1/\"\n        },{\n            value: \"Dataspecer\",\n            href: \"https://dataspecer.com\"\n        },{\n            value: \"Data Specification Vocabulary\",\n            href: \"https://w3id.org/dsv#\"\n        }]\n    }]\n  };\n</script>\n\n<style>\n  .figure img, .sidefigure img, figure img, .figure object, .sidefigure object, figure object, img, .img {\n    max-width: 100%;\n    margin: auto;\n    height: auto;\n  }\n\n  table.simple {\n    margin: auto;\n    border-spacing: 0;\n    border-collapse: collapse;\n  }\n\n  table.simple th {\n    padding: 3px 10px;\n    text-align: left;\n  }\n\n  table.simple td {\n    border-top: 1px solid #ddd;\n    padding: 3px 10px;\n  }\n</style>",
+        "local-biblio": "localBiblio: {\r\n    \"DXWG\": {\r\n      \"href\" : \"https://www.w3.org/2017/dxwg/wiki/Main_Page\",\r\n      \"title\" : \"Dataset Exchange Working Group\",\r\n      \"publisher\" : \"W3C\"\r\n      },\r\n    \"ISA\":{\r\n        \"href\":\"https://ec.europa.eu/isa/\",\r\n        \"title\":\"Interoperability Solutions for European Public Administrations (ISA)\",\r\n        \"publisher\":\"European Commission\"\r\n      },\r\n    \"ISA2\":{\r\n      \"href\":\"https://ec.europa.eu/isa2/\",\r\n      \"title\":\"Interoperability solutions for public administrations, businesses and citizens (ISA²)\",\r\n      \"publisher\":\"European Commission\"\r\n    },\r\n    \"SEMIC\":{\r\n      \"href\":\"https://joinup.ec.europa.eu/\",\r\n      \"title\":\"JoinUp welcomes Interoperable Europe\",\r\n      \"publisher\":\"European Commission\"\r\n      },\r\n    \"DEU\" : {\r\n      \"href\":\"https://data.europa.eu\",\r\n      \"title\":\"The official portal for European data\",\r\n      \"publisher\":\"European Commission\"\r\n    },\r\n\t\t\"HVD\" : {\r\n\t\t  \"href\":\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R0138\",\r\n\t\t  \"title\":\"Implementing Regulation for High Value Datasets\",\r\n\t\t  \"publisher\":\"European Union\"\r\n\t\t},\r\n\t\t\"DCAT-AP-HVD\" : {\r\n\t\t  \"href\":\"https://semiceu.github.io/uri.semic.eu-generated/DCAT-AP/releases/2.2.0-hvd/\",\r\n\t\t  \"title\":\"Usage Guidelines of DCAT-AP for High-Value Datasets\",\r\n\t\t  \"publisher\":\"European Commission\"\r\n\t\t},\r\n    \"PSI\" : {\r\n      \"href\": \"https://eur-lex.europa.eu/eli/dir/2019/1024/oj\",\r\n      \"title\" :  \"Directive on open data and the re-use of public sector information (recast)\",\r\n      \"publisher\" : \"European Union\"\r\n    },\r\n    \"MASTADS\" : {\r\n      \"href\": \"https://archive.stsci.edu/pub_dsn.html\",\r\n      \"title\" :  \"Referencing Data Sets in Astronomical Literature\",\r\n      \"publisher\" : \"MAST\"\r\n    },\r\n    \"DATACITE\" : {\r\n      \"href\": \"http://www.datacite.org/\",\r\n      \"title\" :  \"DataCite\",\r\n      \"publisher\" : \"DataCite\"\r\n    },\r\n    \"DOI\" : {\r\n      \"href\": \"http://www.doi.org/\",\r\n      \"title\" :  \"Digital Object Identifier\",\r\n      \"publisher\" : \"DOI Foundation\"\r\n    },\r\n    \"EZID\" : {\r\n      \"href\": \"https://ezid.cdlib.org/\",\r\n      \"title\" :  \"EZID\",\r\n      \"publisher\" : \"California Digital Library\"\r\n    },\r\n    \"W3ID\" : {\r\n      \"href\": \"https://w3id.org/\",\r\n      \"title\" :  \"Permanent Identifiers for the Web\",\r\n      \"publisher\" : \"W3C Permanent Identifier Community Group\"\r\n    },\r\n    \"ODRL\" : {\r\n      \"href\": \"https://www.w3.org/ns/odrl/2/\",\r\n      \"title\" :  \"The Open Digital Rights Language Ontology Version 2.2\",\r\n      \"publisher\" : \"W3C POE Working Group\"\r\n    },\r\n    \"FAIR\" : {\r\n      \"href\": \"https://www.openaire.eu/how-to-make-your-data-fair\",\r\n      \"title\" :  \"How to make your data FAIR\",\r\n      \"publisher\" : \"OpenAire\"\r\n    },\r\n    \"PAV\": {\r\n              \"href\": \"https://pav-ontology.github.io/pav/\",\r\n              \"title\": \"PAV - Provenance, Authoring and Versioning. Version 2.3.1\",\r\n              \"authors\": [\r\n                \"Paolo Ciccarese\",\r\n                \"Stian Soiland-Reyes\"\r\n              ],\r\n              \"publisher\": \"Mind Informatics\",\r\n              \"date\": \"16 March 2015\",\r\n              \"id\": \"pav\"\r\n    },\r\n    \"SPDX\": {\r\n              \"href\": \"https://spdx.org/rdf/spdx-terms-v2.2/\",\r\n              \"title\": \"SPDX 2.2\",\r\n              \"publisher\": \"SPDX\",\r\n              \"id\": \"spdx\"\r\n    },\r\n    \"DCAT-AP-IT\": {\r\n      \"title\": \"Profilo metadatazione DCAT-AP_IT\",\r\n      \"href\": \"https://docs.italia.it/italia/daf/linee-guida-cataloghi-dati-dcat-ap-it/it/stabile/dcat-ap_it.html\",\r\n      \"publisher\": \"AgID & Team Digitale\",\r\n      \"id\": \"dcat-ap-it\"\r\n  },\r\n  \"GeoDCAT-AP-IT\": {\r\n      \"title\": \"GeoDCAT-AP in Italy, the national guidelines published\",\r\n      \"href\": \"https://web.archive.org/web/20200506120557/https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/news/geodcat-apit\",\r\n      \"id\": \"geodcat-ap-it\"\r\n  },\r\n},",
+        "abstract": "<p>DCAT-AP is a DCAT profile for sharing information about Catalogues containing Datasets and Data Services descriptions in Europe, under maintenance by the SEMIC action, Interoperable Europe.</p>\r\n<p>This Application Profile provides a minimal common basis within Europe to share Datasets and Data Services cross-border and cross-domain.</p>",
+        "specification": "{{> definitions}}\n<!DOCTYPE html>\n<html {{#iflng \"cs\"}}lang=\"cs\"{{lng}}lang=\"en\"{{/iflng}}>\n  <head>\n    {{> html-head}}\n  </head>\n  <body>\n    <p class=\"copyright\"></p>\n    <section id=\"abstract\">\n      {{> abstract}}\n    </section>\n\n    <section>\n      <h2>Introduction</h2>\n    </section>\n\n    <section>\n      <h2>Status</h2>\n    </section>\n\n    <section>\n      <h2>License</h2>\n    </section>\n\n    <section>\n      <h2>Conformance</h2>\n    </section>\n\n    <section>\n      <h2>Terminology</h2>\n    </section>\n\n    <section>\n      <h2>{{#iflng \"cs\"}}Přehled{{lng}}Overview{{/iflng}}</h2>\n\n      {{#each externalArtifacts.svg}}\n        <a href=\"{{{URL}}}\">\n          <figure>\n            <img src=\"{{{URL}}}\" alt=\"{{translate ./label}}\" />\n            <figcaption>{{translate ./label}}</figcaption>\n          </figure>\n        </a>\n      {{/each}}\n    </section>\n\n    {{#if classProfilesByTags.[https://w3id.org/dsv/class-role#main]}}\n      <section>\n        <h2>{{#iflng \"cs\"}}Hlavní profily tříd{{lng}}Main class profiles{{/iflng}}</h2>\n\n        {{#each classProfilesByTags.[https://w3id.org/dsv/class-role#main]}}\n          {{> class-profile}}\n        {{/each}}\n      </section>\n    {{/if}}\n\n    {{#if classProfilesByTags.[https://w3id.org/dsv/class-role#supportive]}}\n      <section>\n        <h2>{{#iflng \"cs\"}}Podpůrné profily třídy{{lng}}Supportive class profiles{{/iflng}}</h2>\n\n        {{#each classProfilesByTags.[https://w3id.org/dsv/class-role#supportive]}}\n          {{> class-profile}}\n        {{/each}}\n      </section>\n    {{/if}}\n\n    {{#if (non-empty classProfilesByTags.default)}}\n      <section>\n        {{#if (or classProfilesByTags.[https://w3id.org/dsv/class-role#main] classProfilesByTags.[https://w3id.org/dsv/class-role#supportive])}}\n          <h2>{{#iflng \"cs\"}}Nezařazené profily tříd{{lng}}Other class profiles{{/iflng}}</h2>\n        {{else}}\n          <h2>{{#iflng \"cs\"}}Profily tříd{{lng}}Class profiles{{/iflng}}</h2>\n        {{/if}}\n\n        {{#each classProfilesByTags.default}}\n          {{> class-profile}}\n        {{/each}}\n      </section>\n    {{/if}}\n\n    {{#if semanticEntitiesByType.classes}}\n      <section>\n        <h2>{{#iflng \"cs\"}}Třídy{{lng}}Classes{{/iflng}}</h2>\n\n        {{#each locallyDefinedSemanticEntity}}\n          {{#ifEquals type.[0] \"class\"}}\n            {{> semantic-model-class}}\n          {{/ifEquals}}\n        {{/each}}\n      </section>\n    {{/if}}\n\n    {{#if semanticEntitiesByType.relationships}}\n      <section>\n        <h2>{{#iflng \"cs\"}}Vlastnosti{{lng}}Properties{{/iflng}}</h2>\n        {{#each locallyDefinedSemanticEntity}}\n          {{#ifEquals type.[0] \"relationship\"}}\n            {{> semantic-model-relationship}}\n          {{/ifEquals}}\n        {{/each}}\n      </section>\n    {{/if}}\n\n    {{#structureModels}}\n      <section>\n      <h2>\n        {{#iflng \"cs\"}}Specifikace struktury pro{{lng}}Data structure specification for{{/iflng}}\n        {{translate humanLabel}}\n      </h2>\n      <p>{{translate humanDescription}}</p>\n\n      {{#artifacts}}{{#getDocumentation}}{{> (useTemplate)}}{{/getDocumentation}}{{/artifacts}}\n      </section>\n    {{/structureModels}}\n\n    {{> used-prefixes}}\n\n    {{> attachments}}\n  </body>\n</html>"
+      }
+    },
+    "http://dataspecer.com/resources/local/layout-configuration": {
+      "main": {
+        "none": {
+          "layout_alg": "none",
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": false
+        },
+        "elk_stress": {
+          "layout_alg": "elk_stress",
+          "stress_edge_len": 800,
+          "number_of_new_algorithm_runs": 10,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": false
+        },
+        "elk_layered": {
+          "layout_alg": "elk_layered",
+          "alg_direction": "UP",
+          "layer_gap": 200,
+          "in_layer_gap": 100,
+          "edge_routing": "ORTHOGONAL",
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": false
+        },
+        "elk_force": {
+          "layout_alg": "elk_force",
+          "min_distance_between_nodes": 400,
+          "force_alg_type": "FRUCHTERMAN_REINGOLD",
+          "number_of_new_algorithm_runs": 10,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": false
+        },
+        "random": {
+          "layout_alg": "random",
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": false
+        },
+        "elk_radial": {
+          "layout_alg": "elk_radial",
+          "min_distance_between_nodes": 500,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": false
+        },
+        "elk_overlapRemoval": {
+          "layout_alg": "elk_overlapRemoval",
+          "min_distance_between_nodes": 0,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": true
+        },
+        "elk_stress_advanced_using_clusters": {
+          "layout_alg": "elk_stress_advanced_using_clusters",
+          "stress_edge_len": 800,
+          "number_of_new_algorithm_runs": 10,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": false
+        },
+        "elk_stress_profile": {
+          "layout_alg": "elk_stress_profile",
+          "profileEdgeLength": 400,
+          "preferredProfileDirection": "UP",
+          "stress_edge_len": 800,
+          "number_of_new_algorithm_runs": 10,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": true
+        },
+        "automatic": {
+          "layout_alg": "automatic",
+          "min_distance_between_nodes": 500,
+          "number_of_new_algorithm_runs": 1,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": false
+        }
+      },
+      "general": {
+        "none": {
+          "layout_alg": "none",
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": false
+        },
+        "elk_stress": {
+          "layout_alg": "elk_stress",
+          "stress_edge_len": 800,
+          "number_of_new_algorithm_runs": 10,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": false
+        },
+        "elk_layered": {
+          "layout_alg": "elk_layered",
+          "alg_direction": "UP",
+          "layer_gap": 200,
+          "in_layer_gap": 100,
+          "edge_routing": "ORTHOGONAL",
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": false
+        },
+        "elk_force": {
+          "layout_alg": "elk_force",
+          "min_distance_between_nodes": 400,
+          "force_alg_type": "FRUCHTERMAN_REINGOLD",
+          "number_of_new_algorithm_runs": 10,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": false
+        },
+        "random": {
+          "layout_alg": "random",
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": false
+        },
+        "elk_radial": {
+          "layout_alg": "elk_radial",
+          "min_distance_between_nodes": 500,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": false
+        },
+        "elk_overlapRemoval": {
+          "layout_alg": "elk_overlapRemoval",
+          "min_distance_between_nodes": 0,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": true
+        },
+        "elk_stress_advanced_using_clusters": {
+          "layout_alg": "elk_stress_advanced_using_clusters",
+          "stress_edge_len": 800,
+          "number_of_new_algorithm_runs": 10,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": false
+        },
+        "elk_stress_profile": {
+          "layout_alg": "elk_stress_profile",
+          "profileEdgeLength": 400,
+          "preferredProfileDirection": "UP",
+          "stress_edge_len": 800,
+          "number_of_new_algorithm_runs": 10,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": true,
+          "interactive": true
+        },
+        "automatic": {
+          "layout_alg": "automatic",
+          "min_distance_between_nodes": 500,
+          "number_of_new_algorithm_runs": 1,
+          "advanced_settings": {},
+          "run_layered_after": false,
+          "run_node_overlap_removal_after": false,
+          "interactive": false
+        }
+      },
+      "chosenMainAlgorithm": "elk_layered",
+      "chosenGeneralAlgorithm": "none",
+      "additionalSteps": {}
+    }
+  }
+}

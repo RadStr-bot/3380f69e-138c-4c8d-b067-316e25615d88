@@ -1,0 +1,21 @@
+{
+  "iri": "3380f69e-138c-4c8d-b067-316e25615d88/3b721c44-2b4a-4a9e-a418-3727ed3a23cd/f1f8eac7-d4d9-4ad4-8db8-cb7759833df9",
+  "projectIri": "d8d74361-31eb-48ac-818e-24e0aa2e287d",
+  "types": [
+    "https://dataspecer.com/core/model-descriptor/pim-store-wrapper"
+  ],
+  "userMetadata": {
+    "documentBaseUrl": "https://www.w3.org/2006/vcard/ns",
+    "label": {
+      "en": "ns"
+    }
+  },
+  "metadata": {
+    "creationDate": "2025-11-05T08:32:00.230Z",
+    "modificationDate": "2025-11-05T09:11:24.416Z"
+  },
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedAt": "2025-11-05T09:11:29.202Z",
+  "_exportedBy": "http://localhost:3100"
+}
